@@ -10,7 +10,7 @@ ADMIN="sergbrikov@gmail.com"
 
 enter your email like this:
 
-ADMIN="yourealemail@gmail.com"
+ADMIN="your-email@gmail.com"
 
 !! WORN !! not touch this:
 EMAIL_SENDER="sergbrikov@gmail.com"
@@ -29,9 +29,13 @@ Terminal:
 .... shell node .....
 
 /usr/app$ npm i
+
 /usr/app$ cd client/
+
 /usr/app/client$ npm i 
+
 /usr/app/client$ cd ..
+
 
 ========================================
 ===========SEND=INVINTATION=============
@@ -41,6 +45,7 @@ I am sending you an email invitation with this command:
 /usr/app$ node adminInvite.js
 
 !! WORN !! check your spam folder and promotions in your email
+
 !! WORN !! make sure the server is running...
 
 ========================================

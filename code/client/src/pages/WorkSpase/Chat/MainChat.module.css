@@ -1,0 +1,41 @@
+.chatbtn{
+  opacity: 0;
+  transition-duration: .5;
+  font-size: 20px;
+  margin-top: 0px!important;
+  margin-bottom: 0px;
+
+}
+.chatbtn:hover{
+  opacity: 1;
+}
+.time{
+  font-size: 16px;
+
+}
+.messageArea {
+  height: calc(85vh - 64px);
+  overflow-y: scroll;
+}
+.inputMsg {
+  height: 20vh;
+}
+.owner{
+  color: #0097a7;
+}
+.message {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.msgContainer:hover{
+  background: #e3f2fd;
+}
+.my-msg{
+  background:#e8eaf6;
+}
+.mainMsg{
+  background: red;
+  border-radius: '5px';
+  width: 'auto';
+  height: 'auto';
+}

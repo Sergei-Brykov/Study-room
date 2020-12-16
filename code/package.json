@@ -1,0 +1,35 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Study Board",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect=0.0.0.0 index.js",
+    "send_admin": "node sendAdmin",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run start \" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:devit.team/sandbox/coop/study-board.git"
+  },
+  "author": "Serg-Brykov",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.0",
+    "axios": "^0.21.0",
+    "dotenv": "^8.2.0",
+    "email-check": "^1.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.15",
+    "multer": "^1.4.2",
+    "nanoid": "^3.1.18",
+    "socket.io": "^3.0.4"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6"
+  }
+}

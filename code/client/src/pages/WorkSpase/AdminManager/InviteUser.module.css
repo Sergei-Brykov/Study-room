@@ -1,0 +1,15 @@
+button.active {
+  color:#4caf50;
+  margin-left: 10px;
+}
+button.not-active {
+  color:#f44336
+}
+button.active:hover {
+  color:#388e3c;
+  background:#e8f5e9;
+}
+button.not-active:hover {
+  color:#d32f2f;
+  background:#ffebee;
+}
